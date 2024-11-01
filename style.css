@@ -26,14 +26,14 @@ header ul li ion-icon{
 }
 
 header ul li a {
-    color: #000000;
+    color: #ffffff;
     font-size: 24px;
     text-decoration: none;
     transition: 0.5s;
     border-bottom: 2px solid transparent;
 }
 header ul li a:hover{
-    color: white;
+    color: rgb(0, 0, 0);
     border-bottom: rgb(43, 55, 56);
 }
 .hero-text-box{
@@ -51,14 +51,18 @@ header ul li a:hover{
     color: whitesmoke;
 }
 #projects{
+    border-top: 5px dashed black;
+    border-bottom: 5px dashed black;
     padding-left: 10%;
     padding-top: 2.5%;
     display: flex;
     justify-content: space-between;
-    background-color:#3c4b54
+    background-color:#3c4b54;
+    padding-bottom: 20px;
 }
 .projectboxes{
-    border: 2px solid gray;
+    background-color: #2c3e49;
+    border: 2px solid rgb(31, 36, 49);
     width: 25%;
     height: 400px;
 }
@@ -87,6 +91,7 @@ header ul li a:hover{
 }
 
 .image-grid img {
+    max-height: 100%;
     width: 100%;
     height: auto; 
     object-fit: cover; 
@@ -100,4 +105,60 @@ header ul li a:hover{
     width: 100%;
     opacity: 1;
     transform: scale(.9);
+}
+
+.resumelinktext {
+    font-size: 20px;
+    text-decoration: none;
+    color:rgb(164, 81, 205)
+}
+
+
+
+#GitHub{
+    padding-top: 50px;
+    display: flex;
+    background-color: #495861;
+    border-bottom: 3px dashed black;
+}
+
+.contacthead{
+    font-size: 50px;
+    padding-top: 20px;
+    text-align: center;
+    background-color: #495861;
+    display: block;
+}
+
+.contactbox{
+    width: 33%;
+    background-color: #2c3e49;
+    border: 1px solid #000;
+}
+.box-head{
+    padding-top: 15px;
+    padding-left: 20px;
+    font-size: 30px;
+    color: white;
+
+}
+.box-text{
+    padding-left: 10px;
+    font-size: 20px;
+    color: rgb(125, 148, 170)
+}
+.contact-text{
+    text-align: center;
+    color: blue
+}
+#footer{
+    background-color: #2c3e49;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    color:#ffffff
+}
+#footer a{
+    text-decoration: none;
+    color:#ffffff
 }
